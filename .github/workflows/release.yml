@@ -1,4 +1,4 @@
-name: Create Release with datapack ZIP
+name: Create Release with data pack ZIP
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
         id: get_tag
         run: echo "TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
 
-      - name: Create datapack ZIP
+      - name: Create data pack ZIP
         run: |
           zip -r no-cheat-dp-${{ steps.get_tag.outputs.TAG }}.zip . -x "*.git*" "*.github*"
 
