@@ -28,7 +28,7 @@ jobs:
           name: Release ${{ steps.get_tag.outputs.TAG }}
           draft: false
           prerelease: false
-          files: datapack-${{ steps.get_tag.outputs.TAG }}.zip
+          files: no-cheat-dp-${{ steps.get_tag.outputs.TAG }}.zip
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
