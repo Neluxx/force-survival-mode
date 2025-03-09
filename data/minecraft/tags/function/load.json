@@ -1,6 +1,1 @@
-{
-  "replace": false,
-  "values": [
-    "no_cheat:main"
-  ]
-}
+{"values":["no_cheat:load"]}
