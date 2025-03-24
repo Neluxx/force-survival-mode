@@ -1,6 +1,10 @@
 {
     "pack": {
+        "description": "No Creative Gamemode – Force Survival Mode at All Times",
         "pack_format": 61,
-        "description": "No creative mode"
+        "supported_formats": {
+            "min_inclusive": 48,
+            "max_inclusive": 61
+        }
     }
 }
