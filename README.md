@@ -1,26 +1,20 @@
-# No creative mode
-This datapack ensures that players cannot switch to creative mode.
+# No creative gamemode
 
----
+No creative gamemode is a restrictive datapack for Minecraft that forcefully sets all players to Survival mode every tick.
+Even if someone switches to Creative or Spectator using commands or cheats, the datapack immediately reverts them back.
+Ideal for challenge maps, servers with strict rules, or adventure setups where Creative access must be completely blocked.
 
-# Features
-- Forces all players into Survival mode
-- Works in Singleplayer & Multiplayer (LAN/Servers)
-- Lightweight & efficient – no lag!
+## Features
+- Forces Survival gamemode every game tick
+- Works on all players, including operators
+- Prevents use of Creative or Spectator mode at all times
 
----
+## Installation
 
-# Installation
-- Download the datapack ZIP file.
-- Move it into your world’s datapacks folder: ``.minecraft/saves/YOUR_WORLD/datapacks/``
-- Start your world & type: ``/reload``
-- (Optional) Verify it’s active: ``/datapack list``
+- Download the [datapack](https://github.com/Neluxx/no-creative-mode/releases/latest)
+- Move the datapack inside ``.minecraft/saves/<world>/datapacks`` ([How to find .minecraft?](https://minecraft.wiki/w/.minecraft#Locating))
+- Reload the world or run ``/reload``
 
----
+## Uninstalling
 
-# Uninstalling
-
-To remove the datapack:
-
-- Delete the datapack inside your datapacks directory: ``.minecraft/saves/YOUR_WORLD/datapacks/``
-- Reload the world: ``/reload``
+- Delete the datapack from ``.minecraft/saves/<world>/datapacks``
