@@ -15,10 +15,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+## [v1.2.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.2.0) - 2025-04-17
+
+### Added
+- Add full backwards compatibility down to pack format 4 (MC 1.13)
+
 ## [v1.1.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.1.0) - 2025-04-14
 
 ### Added
-- Add backwards compatibility to pack format 10
+- Add backwards compatibility to pack format 10 (MC 1.19)
 
 ## [v1.0.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.0.0) - 2025-03-26
 
