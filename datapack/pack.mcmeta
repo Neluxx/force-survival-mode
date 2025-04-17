@@ -3,7 +3,7 @@
         "description": "Force Survival Mode at All Times",
         "pack_format": 71,
         "supported_formats": {
-            "min_inclusive": 10,
+            "min_inclusive": 4,
             "max_inclusive": 71
         }
     },
