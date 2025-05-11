@@ -15,6 +15,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+## [v1.2.1](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.2.1) - 2025-05-11
+
+### Changed
+- Update pack description
+
 ## [v1.2.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.2.0) - 2025-04-17
 
 ### Added
