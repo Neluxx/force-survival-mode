@@ -13,7 +13,7 @@
                             "color": "gray",
                             "extra": [
                                 {
-                                    "text": "1.13 - 1.21.6",
+                                    "text": "1.13 - 1.21.7",
                                     "color": "yellow"
                                 }
                             ]
@@ -22,16 +22,16 @@
                 }
             ]
         },
-        "pack_format": 80,
+        "pack_format": 81,
         "supported_formats": {
             "min_inclusive": 4,
-            "max_inclusive": 80
+            "max_inclusive": 81
         }
     },
     "overlays": {
         "entries": [
             {
-                "formats": {"min_inclusive": 48, "max_inclusive": 80},
+                "formats": {"min_inclusive": 48, "max_inclusive": 81},
                 "directory": "overlay_48"
             }
         ]
