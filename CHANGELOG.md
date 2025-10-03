@@ -15,15 +15,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+## [v1.5.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.5.0) - 2025-10-03
+
+### Changed
+- Update to data pack format 88 to support minecraft version 1.21.9
+
 ## [v1.4.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.4.0) - 2025-07-02
 
 ### Changed
-- Update to datapack format 81 to support version 1.21.7
+- Update to data pack format 81 to support minecraft version 1.21.7
 
 ## [v1.3.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.3.0) - 2025-06-22
 
 ### Changed
-- Update to datapack format 80 to support version 1.21.6
+- Update to data pack format 80 to support minecraft version 1.21.6
 
 ## [v1.2.1](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.2.1) - 2025-05-11
 
@@ -33,7 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.2.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.2.0) - 2025-04-17
 
 ### Added
-- Add full backwards compatibility down to pack format 4 (MC 1.13)
+- Add backwards compatibility to data pack format 4 to support minecraft version 1.13
 
 ### Changed
 - Update pack.png
@@ -41,7 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.1.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.1.0) - 2025-04-14
 
 ### Added
-- Add backwards compatibility to pack format 10 (MC 1.19)
+- Add backwards compatibility to data pack format 10 to support minecraft version 1.19
 
 ## [v1.0.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.0.0) - 2025-03-26
 
@@ -49,4 +54,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Forces all players every tick into Survival mode
 
 ### Changed
-- Update to datapack format 71 to support version 1.21.5
+- Update to data pack format 71 to support minecraft version 1.21.5
