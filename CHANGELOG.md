@@ -15,32 +15,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-## [v1.5.1](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.5.1) - 2025-10-07
+## [v1.5.2](https://github.com/Neluxx/force-survival-mode/releases/tag/v1.5.2) - 2025-10-16
+
+### Changed
+- Update version in pack.mcmeta description to 1.21.10
+
+## [v1.5.1](https://github.com/Neluxx/force-survival-mode/releases/tag/v1.5.1) - 2025-10-07
 
 ### Fixed
 - Add missing min_format and max_format in pack.mcmeta
 
-## [v1.5.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.5.0) - 2025-10-03
+## [v1.5.0](https://github.com/Neluxx/force-survival-mode/releases/tag/v1.5.0) - 2025-10-03
 
 ### Changed
 - Update to data pack format 88 to support minecraft version 1.21.9
 
-## [v1.4.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.4.0) - 2025-07-02
+## [v1.4.0](https://github.com/Neluxx/force-survival-mode/releases/tag/v1.4.0) - 2025-07-02
 
 ### Changed
 - Update to data pack format 81 to support minecraft version 1.21.7
 
-## [v1.3.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.3.0) - 2025-06-22
+## [v1.3.0](https://github.com/Neluxx/force-survival-mode/releases/tag/v1.3.0) - 2025-06-22
 
 ### Changed
 - Update to data pack format 80 to support minecraft version 1.21.6
 
-## [v1.2.1](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.2.1) - 2025-05-11
+## [v1.2.1](https://github.com/Neluxx/force-survival-mode/releases/tag/v1.2.1) - 2025-05-11
 
 ### Changed
 - Update pack description
 
-## [v1.2.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.2.0) - 2025-04-17
+## [v1.2.0](https://github.com/Neluxx/force-survival-mode/releases/tag/v1.2.0) - 2025-04-17
 
 ### Added
 - Add backwards compatibility to data pack format 4 to support minecraft version 1.13
@@ -48,12 +53,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Update pack.png
 
-## [v1.1.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.1.0) - 2025-04-14
+## [v1.1.0](https://github.com/Neluxx/force-survival-mode/releases/tag/v1.1.0) - 2025-04-14
 
 ### Added
 - Add backwards compatibility to data pack format 10 to support minecraft version 1.19
 
-## [v1.0.0](https://github.com/Neluxx/no-creative-mode/releases/tag/v1.0.0) - 2025-03-26
+## [v1.0.0](https://github.com/Neluxx/force-survival-mode/releases/tag/v1.0.0) - 2025-03-26
 
 ### Added
 - Forces all players every tick into Survival mode
