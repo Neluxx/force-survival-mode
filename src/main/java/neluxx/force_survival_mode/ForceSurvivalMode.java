@@ -1,6 +1,10 @@
 package neluxx.force_survival_mode;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
+import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
+import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.util.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,5 +24,14 @@ public class ForceSurvivalMode implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+
+        // Register the datapack
+        ResourceManagerHelper.registerBuiltinResourcePack(
+                Identifier.of("minecraft", "datapack"),
+                FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow(),
+                ResourcePackActivationType.ALWAYS_ENABLED
+        );
+
+        LOGGER.info("Force Survival Mode datapack registered!");
 	}
 }
