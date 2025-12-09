@@ -3,9 +3,9 @@
 	"id": "force-survival-mode",
 	"version": "${version}",
 	"name": "Force Survival Mode",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A minecraft fabric mod that forces players into survival mode.",
 	"authors": [
-		"Me!"
+		"Neluxx"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
