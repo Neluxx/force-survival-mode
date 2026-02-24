@@ -1,0 +1,7 @@
+{
+    "name": "Force Survival Mode",
+    "output": "build",
+    "data_pack": {
+        "load": ["datapack"]
+    }
+}
