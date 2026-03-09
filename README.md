@@ -20,3 +20,6 @@ Ideal for challenge maps, servers with strict rules, or adventure setups where C
 
 If you enjoy this datapack and find it useful, please consider giving the repository a star and following me on GitHub.  
 This helps the project gain visibility and motivates further development and maintenance.
+
+## Contributing
+Contributions are welcome! Please read [CONTRIBUTING.md](docs/CONTRIBUTING.md) for commit conventions and guidelines.
