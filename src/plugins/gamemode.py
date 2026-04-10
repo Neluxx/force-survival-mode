@@ -15,4 +15,4 @@ def beet_default(ctx: Context):
 
 def apply_patch(pack: DataPack):
     pack[Function][FUNCTION_ID] = Function(COMMANDS)
-    pack["minecraft:tick"] = FunctionTag({"values": ["no_creative_mode:trigger"]})
+    pack["minecraft:tick"] = FunctionTag({"values": [FUNCTION_ID]})
