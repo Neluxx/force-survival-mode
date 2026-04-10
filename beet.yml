@@ -2,14 +2,15 @@ name: Force Survival Mode
 version: 0.1.0
 
 pipeline:
-  - beet.contrib.render
+  - src.plugins.gamemode
 
 meta:
-  render:
-    data_pack:
-      - "**"
+  base_version: "1.13"
+  overlay_versions:
+    v1_21: "1.21"
 
 data_pack:
+  load: src/datapack
   description: {"text":"Force Survival Mode\n1.13 - 26.1", "color":"gray"}
   pack_format: 4
   min_format: 4
@@ -17,7 +18,6 @@ data_pack:
   supported_formats:
     min_inclusive: 4
     max_inclusive: 101
-  load: src/datapack
   overlays:
     - directory: v1_21
       min_format: 48
