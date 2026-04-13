@@ -1,0 +1,27 @@
+name: Force Survival Mode Legacy
+version: 0.2.0
+
+pipeline:
+  - src.plugins.gamemode
+
+meta:
+  base_version: "1.13"
+  overlay_versions:
+    v1_21: "1.21"
+
+data_pack:
+  load: src/datapack
+  description: {"text":"Force Survival Mode\n1.13 - 1.21.8", "color":"gray"}
+  pack_format: 4
+  supported_formats:
+    min_inclusive: 4
+    max_inclusive: 44
+  overlays:
+    - directory: v1_21
+      min_format: 45
+      max_format: 81
+      formats:
+        min_inclusive: 45
+        max_inclusive: 81
+
+output: build
