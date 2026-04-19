@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Dependencies
 
-## [v0.2.1](https://github.com/Neluxx/force-survival-mode/releases/tag/v0.2.1) - 2026-04-13
+## [v1.0.0](https://github.com/Neluxx/force-survival-mode/releases/tag/v1.0.0) - 2026-04-19
 
 ### Added
 - Forces all players every tick into Survival mode
