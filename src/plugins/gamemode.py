@@ -1,6 +1,6 @@
 from beet import Context, Function, FunctionTag
 
-from datapack_utils import Targets
+from beet_datapack_utils import Targets
 
 FUNCTION_ID = "no_creative_mode:trigger"
 COMMANDS = ["gamemode survival @a"]
