@@ -1,12 +1,12 @@
 from beet import Context, Function, FunctionTag
 
-from beet_datapack_utils import Targets
+from beet_datapack_utils import targets
 
 FUNCTION_ID = "no_creative_mode:trigger"
 COMMANDS = ["gamemode survival @a"]
 
 
 def beet_default(ctx: Context):
-    for target in ctx.inject(Targets):
+    for target in targets(ctx):
         target.pack[Function][FUNCTION_ID] = Function(COMMANDS)
         target.pack["minecraft:tick"] = FunctionTag({"values": [FUNCTION_ID]})
