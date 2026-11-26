@@ -8,5 +8,5 @@ COMMANDS = ["gamemode survival @a"]
 
 def beet_default(ctx: Context):
     for pack in versioned_packs(ctx):
-        pack.data_pack[Function][FUNCTION_ID] = Function(COMMANDS)
-        pack.data_pack["minecraft:tick"] = FunctionTag({"values": [FUNCTION_ID]})
+        pack.data[Function][FUNCTION_ID] = Function(COMMANDS)
+        pack.data["minecraft:tick"] = FunctionTag({"values": [FUNCTION_ID]})
