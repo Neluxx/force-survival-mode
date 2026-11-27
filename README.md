@@ -1,4 +1,4 @@
-# No creative gamemode
+# Force Survival Mode
 
 Force Survival Mode is a restrictive datapack for Minecraft that forcefully sets all players to Survival mode every tick.
 
@@ -12,7 +12,7 @@ Ideal for challenge maps, servers with strict rules, or adventure setups where C
 
 ## Installation
 
-- Download the [datapack](https://github.com/Neluxx/no-creative-mode/releases/latest)
+- Download the [datapack](https://github.com/Neluxx/force-survival-mode/releases/latest)
 - Move the datapack inside ``.minecraft/saves/<world>/datapacks`` ([How to find .minecraft?](https://minecraft.wiki/w/.minecraft#Locating))
 - Reload the world or run ``/reload``
 
