@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed
+- Only run the gamemode command for players who are not in Survival mode
+- Rename the function namespace from `no_creative_mode` to `force_survival_mode`
 - Build the datapack with the shared [beet-datapack-utils](https://github.com/Neluxx/beet-datapack-utils) helpers instead of a local `utils.py`
 
 ### Deprecated
